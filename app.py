@@ -42,4 +42,4 @@ def index():
     #     return ({"status": "error"})
     
     # response = {"data": f"Hello, {name}!"}
-    return jsonify(response)
+    return jsonify(response) 
