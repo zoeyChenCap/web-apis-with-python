@@ -47,7 +47,7 @@ def dictionary():
             else:
                 # return jsonify({"status": "error", "data": "Word not find.", "word": word})
                 response["words"].append({"status": "error", "data": "Word not found.", "word": word})
-    return response
+    return jsonify(response)
 
 if __name__ == "__main__":
     app.run()
